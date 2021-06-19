@@ -231,7 +231,7 @@
                         Improvement in the measurement of metrics.
                     </small>
                     <div class="button">
-                        <a href="#" class="btn"> BUY NOW &#10132;</a>
+                        <a href="#" onclick="buyNow(); return false;" class="btn">Buy Now &#10132;</a>
                     </div>
                 </div>
             </div>
@@ -354,3 +354,14 @@
     </div>
 </body>
 </html>
+<script type="text/javascript">
+     function buyNow(){
+        question = confirm( "Bạn muốn mua cái lày ? ");
+        if( question != false) {
+            alert("Cảm ơn bạn đã chọn sản phẩm")
+        }
+    }
+    function home(){
+        
+    }
+</script>
